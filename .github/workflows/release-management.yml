@@ -8,7 +8,7 @@ on:
 
 jobs:
   init-release:
-    if: github.event.pull_request.merged && (startsWith(github.event.pull_request.head.ref, 'flight/') || startsWith(github.event.pull_request.head.ref, 'hotfix/'))
+    if: github.event.pull_request.merged && (startsWith(github.event.pull_request.head.ref, 'dev/') || startsWith(github.event.pull_request.head.ref, 'hotfix/'))
     runs-on: ubuntu-latest
     name: Create Release PR
     steps:
