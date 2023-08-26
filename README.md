@@ -18,7 +18,7 @@ on:
 
 jobs:
   release:
-    if: github.event.pull_request.merged && (startsWith(github.event.pull_request.head.ref, 'dev/') || startsWith(github.event.pull_request.head.ref, 'hotfix/'))
+    if: github.event.pull_request.merged && (startsWith(github.event.pull_request.head.ref, 'release/') || startsWith(github.event.pull_request.head.ref, 'hotfix/'))
     runs-on: ubuntu-latest
     name: Tag and Release
     steps:
@@ -42,7 +42,7 @@ For functioning this this action it requires, Github access token with following
 ## Features
 - Automatically managed Github tagging and releasing based on the pull request's branch prefix.
 > _As an example,_
-if it have been merged branch which starts from `dev/` it increase the minor version number. ex - `v1.0.1` to `v1.2.0`.
+if it have been merged branch which starts from `release/` it increase the minor version number. ex - `v1.0.1` to `v1.2.0`.
 If the PR branch starts with `hotfix/` prefix, it increase the patch release number.
 ex - `v1.0.1` to `v1.0.2`
 

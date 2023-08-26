@@ -8,12 +8,12 @@ on:
 
 jobs:
   init-release:
-    if: github.event.pull_request.merged && (startsWith(github.event.pull_request.head.ref, 'dev/') || startsWith(github.event.pull_request.head.ref, 'hotfix/'))
+    if: github.event.pull_request.merged && (startsWith(github.event.pull_request.head.ref, 'release/') || startsWith(github.event.pull_request.head.ref, 'hotfix/'))
     runs-on: ubuntu-latest
     name: Create Release PR
     steps:
       - name: Release
-        uses: CHTFH/release-management-action@main
+        uses: CHTFH/release-management-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           config-path: .github/config/release-management.yaml
@@ -25,7 +25,7 @@ jobs:
     name: Tagging and Releasing
     steps:
       - name: Release
-        uses: CHTFH/release-management-action@main
+        uses: CHTFH/release-management-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           config-path: .github/config/release-management.yaml
