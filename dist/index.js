@@ -35649,7 +35649,7 @@ class Git {
     }
 
     generateReleaseBranchName(version) {
-        return `release/release_${version.replace(/\./g, '-')}_${moment().format('YYYYMMDDHHmmss')}}`;
+        return `auto-release/release_${version.replace(/\./g, '-')}_${moment().format('YYYYMMDDHHmmss')}}`;
     }
 
     async createBranch(octokit, owner, repo, branchName, sourceBranch) {
