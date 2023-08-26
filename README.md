@@ -8,25 +8,39 @@ Github action for managing the release version and tags based on the release typ
 
 2. Now create a `.github/workflows/release-tagging.yml` file with these contents:
 ``` yaml
-name: Tag and Release
+name: Release Management
 
 on:
   pull_request:
     types: [ closed ]
     branches:
-      - master
+      - main
 
 jobs:
-  release:
+  init-release:
     if: github.event.pull_request.merged && (startsWith(github.event.pull_request.head.ref, 'release/') || startsWith(github.event.pull_request.head.ref, 'hotfix/'))
     runs-on: ubuntu-latest
-    name: Tag and Release
+    name: Create Release PR
     steps:
       - name: Release
-        uses: CHTFH/release-management-action@v1.0.0
+        uses: CHTFH/release-management-action@v1.0.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          release-prefix: 'v'
+          config-path: .github/config/release-management.yaml
+          release-prefix: v
+          action: release-pr 
+  release:
+    if: github.event.pull_request.merged && startsWith(github.event.pull_request.head.ref, 'auto-release/')
+    runs-on: ubuntu-latest
+    name: Tagging and Releasing
+    steps:
+      - name: Release
+        uses: CHTFH/release-management-action@v1.0.2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          config-path: .github/config/release-management.yaml
+          release-prefix: v
+          action: release
 ```
 
 For functioning this this action it requires, Github access token with following permissions.
