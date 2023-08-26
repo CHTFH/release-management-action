@@ -20,7 +20,7 @@ jobs:
           release-prefix: v
           action: release-pr 
   release:
-    if: github.event.pull_request.merged && startsWith(github.event.pull_request.head.ref, 'release/')
+    if: github.event.pull_request.merged && startsWith(github.event.pull_request.head.ref, 'auto-release/')
     runs-on: ubuntu-latest
     name: Tagging and Releasing
     steps:
