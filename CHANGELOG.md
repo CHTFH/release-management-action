@@ -1,5 +1,26 @@
 
             
+## [v1.0.2](https://github.com/CHTFH/release-management-action/compare/v1.0.1...v1.0.2) (2023-10-23)
+
+
+### Bug Fixes
+
+* Branch name update ([55cd62b](https://github.com/CHTFH/release-management-action/commit/55cd62bdf1bf1f05c58561d1ee4cfd9a1241caf4))
+
+### Other Commits
+
+* Update README.md
+
+Updated Read me file ([2acdfc3](https://github.com/CHTFH/release-management-action/commit/2acdfc36652fcf59ff9d8cf13d58389e18eb3f9c))
+
+### Affected Areas
+| **Service**        | **Type**                                         |
+|--------------------|---------------------------------------------------------|
+| `README.md` | Other |
+<!--- EOR(End Of Release : [v1.0.2]) -->
+
+            
+            
 ## [v1.0.1](https://github.com/CHTFH/release-management-action/compare/v1.0.0...v1.0.1) (2023-08-26)
 
 
@@ -32,5 +53,6 @@
 <!--- EOR(End Of Release : [v1.0.1]) -->
 
             
+        
         
         
