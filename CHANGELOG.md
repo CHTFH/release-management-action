@@ -1,5 +1,21 @@
 
             
+## [v1.0.3](https://github.com/StotteAdmin/release-management-action/compare/v1.0.2...v1.0.3) (2023-11-23)
+
+
+### Bug Fixes
+
+* Github account update ([abf3bea](https://github.com/StotteAdmin/release-management-action/commit/abf3beab9c72cb2e86a4296db0c19054f8b214ba))
+
+
+### Affected Areas
+| **Service**        | **Type**                                         |
+|--------------------|---------------------------------------------------------|
+| `.github/workflows/release-management.yml` | Other |
+<!--- EOR(End Of Release : [v1.0.3]) -->
+
+            
+            
 ## [v1.0.2](https://github.com/StotteAdmin/release-management-action/compare/v1.0.1...v1.0.2) (2023-10-23)
 
 
@@ -53,6 +69,7 @@ Updated Read me file ([2acdfc3](https://github.com/StotteAdmin/release-managemen
 <!--- EOR(End Of Release : [v1.0.1]) -->
 
             
+        
         
         
         
