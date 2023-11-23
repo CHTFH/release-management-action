@@ -23,7 +23,7 @@ jobs:
     name: Create Release PR
     steps:
       - name: Release
-        uses: CHTFH/release-management-action@v1.0.2
+        uses: StotteAdmin/release-management-action@v1.0.3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           config-path: .github/config/release-management.yaml
@@ -35,7 +35,7 @@ jobs:
     name: Tagging and Releasing
     steps:
       - name: Release
-        uses: CHTFH/release-management-action@v1.0.2
+        uses: StotteAdmin/release-management-action@v1.0.3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           config-path: .github/config/release-management.yaml
