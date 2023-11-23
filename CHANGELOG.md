@@ -1,17 +1,17 @@
 
             
-## [v1.0.2](https://github.com/CHTFH/release-management-action/compare/v1.0.1...v1.0.2) (2023-10-23)
+## [v1.0.2](https://github.com/StotteAdmin/release-management-action/compare/v1.0.1...v1.0.2) (2023-10-23)
 
 
 ### Bug Fixes
 
-* Branch name update ([55cd62b](https://github.com/CHTFH/release-management-action/commit/55cd62bdf1bf1f05c58561d1ee4cfd9a1241caf4))
+* Branch name update ([55cd62b](https://github.com/StotteAdmin/release-management-action/commit/55cd62bdf1bf1f05c58561d1ee4cfd9a1241caf4))
 
 ### Other Commits
 
 * Update README.md
 
-Updated Read me file ([2acdfc3](https://github.com/CHTFH/release-management-action/commit/2acdfc36652fcf59ff9d8cf13d58389e18eb3f9c))
+Updated Read me file ([2acdfc3](https://github.com/StotteAdmin/release-management-action/commit/2acdfc36652fcf59ff9d8cf13d58389e18eb3f9c))
 
 ### Affected Areas
 | **Service**        | **Type**                                         |
@@ -21,13 +21,13 @@ Updated Read me file ([2acdfc3](https://github.com/CHTFH/release-management-acti
 
             
             
-## [v1.0.1](https://github.com/CHTFH/release-management-action/compare/v1.0.0...v1.0.1) (2023-08-26)
+## [v1.0.1](https://github.com/StotteAdmin/release-management-action/compare/v1.0.0...v1.0.1) (2023-08-26)
 
 
 ### Bug Fixes
 
-* Release managment action ([da4263f](https://github.com/CHTFH/release-management-action/commit/da4263fcf5b3123d30ab8f9c5073fac1fbaee163))
-* Auto release branch name update ([eabab0a](https://github.com/CHTFH/release-management-action/commit/eabab0a6453518ba3a6257b8ecb909a240a015e3))
+* Release managment action ([da4263f](https://github.com/StotteAdmin/release-management-action/commit/da4263fcf5b3123d30ab8f9c5073fac1fbaee163))
+* Auto release branch name update ([eabab0a](https://github.com/StotteAdmin/release-management-action/commit/eabab0a6453518ba3a6257b8ecb909a240a015e3))
 
 
 ### Affected Areas
@@ -38,12 +38,12 @@ Updated Read me file ([2acdfc3](https://github.com/CHTFH/release-management-acti
 
             
             
-## [v1.0.1](https://github.com/CHTFH/release-management-action/compare/v1.0.0...v1.0.1) (2023-08-26)
+## [v1.0.1](https://github.com/StotteAdmin/release-management-action/compare/v1.0.0...v1.0.1) (2023-08-26)
 
 
 ### Bug Fixes
 
-* Auto release branch name update ([eabab0a](https://github.com/CHTFH/release-management-action/commit/eabab0a6453518ba3a6257b8ecb909a240a015e3))
+* Auto release branch name update ([eabab0a](https://github.com/StotteAdmin/release-management-action/commit/eabab0a6453518ba3a6257b8ecb909a240a015e3))
 
 
 ### Affected Areas
