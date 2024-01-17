@@ -1,5 +1,21 @@
 
             
+## [v1.0.4](https://github.com/StotteAdmin/release-management-action/compare/v1.0.3...v1.0.4) (2024-01-18)
+
+
+### Bug Fixes
+
+* Update change log template ([e8df369](https://github.com/StotteAdmin/release-management-action/commit/e8df3696be8434dfcdbc65c667b09062770156c3))
+
+
+### Affected Areas
+| **Service**        | **Type**                                         |
+|--------------------|---------------------------------------------------------|
+| `templates/CHANGELOG.md.js` | Other |
+<!--- EOR(End Of Release : [v1.0.4]) -->
+
+            
+            
 ## [v1.0.3](https://github.com/StotteAdmin/release-management-action/compare/v1.0.2...v1.0.3) (2023-11-23)
 
 
@@ -69,6 +85,7 @@ Updated Read me file ([2acdfc3](https://github.com/StotteAdmin/release-managemen
 <!--- EOR(End Of Release : [v1.0.1]) -->
 
             
+        
         
         
         
