@@ -1,5 +1,21 @@
 
             
+## [v1.0.5](https://github.com/StotteAdmin/release-management-action/compare/v1.0.4...v1.0.5) (2024-01-18)
+
+
+### Bug Fixes
+
+* Affected areas removed ([29c249c](https://github.com/StotteAdmin/release-management-action/commit/29c249c72b3795c8d7864cb5cb3e8b42fbc660f5))
+
+
+### Affected Areas
+| **Service**        | **Type**                                         |
+|--------------------|---------------------------------------------------------|
+| `actions/ReleasePullRequestAction.js` | Other |
+<!--- EOR(End Of Release : [v1.0.5]) -->
+
+            
+            
 ## [v1.0.4](https://github.com/StotteAdmin/release-management-action/compare/v1.0.3...v1.0.4) (2024-01-18)
 
 
@@ -85,6 +101,7 @@ Updated Read me file ([2acdfc3](https://github.com/StotteAdmin/release-managemen
 <!--- EOR(End Of Release : [v1.0.1]) -->
 
             
+        
         
         
         
