@@ -24,16 +24,5 @@ module.exports = `
 * {{this.commit_name}} ([{{this.compact_commit_hash}}](https://github.com/{{../org}}/{{../repo}}/commit/{{this.commit_hash}}))
 {{/each}}
 {{/if}}
-
-{{#if affected_areas}}
-### Affected Areas
-| **Service**        | **Type**                                         |
-|--------------------|---------------------------------------------------------|
-{{#each affected_areas}}
-{{#if visible}}
-| \`{{entity}}\` | {{type}} |
-{{/if}}
-{{/each}}
-{{/if}}
 <!--- EOR(End Of Release : [{{version}}]) -->
 `;
