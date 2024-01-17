@@ -58,7 +58,8 @@ class ReleasePRAction extends BaseAction {
         );
 
         const commitsDiff = gitHelper.filterCommits(compare.commits, branch);
-        const changedFilesList = gitHelper.filterFiles(compare.files);
+        // const changedFilesList = gitHelper.filterFiles(compare.files);
+        const changedFilesList = [];
 
         const {
             newVersionNumber,
